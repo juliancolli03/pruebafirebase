@@ -1,0 +1,18 @@
+/* Estilo básico para las tarjetas */
+.tarjeta {
+    border: 1px solid #ccc;
+    margin: 10px;
+    padding: 10px;
+    width: 260px; /* Ajusta el ancho según tus necesidades */
+    text-align: center;
+  }
+  
+  /* Estilo para las imágenes dentro de las tarjetas */
+ /* Establece el tamaño fijo para las imágenes dentro de las tarjetas */
+.tarjeta img {
+    width: 200px; /* Tamaño deseado en píxeles */
+    height: 150px; /* Tamaño deseado en píxeles */
+    object-fit: cover; /* Controla cómo se ajusta la imagen al tamaño definido */
+  }
+  
+  
