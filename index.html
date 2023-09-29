@@ -58,9 +58,9 @@
                         role="button" data-bs-toggle="dropdown" aria-expanded="false">
                             Archivos </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <li><a class="dropdown-item" href="${pageContext.request.contextPath}/sirplaTransporteServletUbicacion?accion=LISTARUBICACIONES&usuario=<%= usuariologin.getIdUsuario()%>">Ubicacion</a></li>
-                            <li><a class="dropdown-item" href="${pageContext.request.contextPath}/sirplaTransporteServletCamiones?accion=LISTARCAMIONES&usuario=<%= usuariologin.getIdUsuario()%>">Camiones</a></li>
-                            <li><a class="dropdown-item" href="${pageContext.request.contextPath}/sirplaTransporteServletChofer?accion=LISTARCHOFERES&usuario=<%= usuariologin.getIdUsuario()%>">Choferes</a></li>
+                            <li><a class="dropdown-item">Ubicacion</a></li>
+                            <li><a class="dropdown-item" >Camiones</a></li>
+                            <li><a class="dropdown-item">choferes</a></li>
                             <li class="d-none"><a class="dropdown-item" href="#">Empresa</a></li>
                         </ul>
                     </li>
@@ -69,10 +69,10 @@
                         role="button" data-bs-toggle="dropdown" aria-expanded="false">
                             Servicios </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <li><a class="dropdown-item" href="${pageContext.request.contextPath}/sirplaTransporteServletClientes?accion=LISTARCLIENTES&usuario=<%= usuariologin.getIdUsuario()%>">Clientes</a></li>
-                            <li><a class="dropdown-item" href="${pageContext.request.contextPath}/sirplaTransporteServletListaPrecio?accion=LISTARLISTAPRECIO&usuario=<%= usuariologin.getIdUsuario()%>">Lista Precio</a></li>
-                            <li><a class="dropdown-item" href="${pageContext.request.contextPath}/sirplaTransporteServletServicio?accion=LISTARSERVICIOS&usuario=<%= usuariologin.getIdUsuario()%>">Servicios</a></li>
-                            <li><a class="dropdown-item" href="${pageContext.request.contextPath}/sirplaTransporteServletOrdenesEnvio?accion=LISTARORDENESPENDIENTES&usuario=<%= usuariologin.getIdUsuario()%>">Orden de transporte</a></li>
+                            <li><a class="dropdown-item" >Clientes</a></li>
+                            <li><a class="dropdown-item" ">Lista Precio</a></li>
+                            <li><a class="dropdown-item" ">Servicios</a></li>
+                            <li><a class="dropdown-item" >">Orden de transporte</a></li>
                         </ul>
                     </li>
                 </ul>
@@ -84,7 +84,7 @@
                             Usuario
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <li><a class="dropdown-item" href="${pageContext.request.contextPath}/sirplaTransporteServletConfiguracion?accion=LISTARCONFIGURACION&usuario=<%= usuariologin.getIdUsuario()%>">Configuracion</a></li>
+                            <li><a class="dropdown-item" >Configuracion</a></li>
                             <li><a class="dropdown-item" href="#">Salir</a></li>							
                         </ul>
                     </li>
